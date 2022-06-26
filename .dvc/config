@@ -1,4 +1,18 @@
 [core]
-    remote = remote_dvc
+    remote = storage
 ['remote "remote_dvc"']
     url = ../../dvc_store
+['remote "remote2_dvc"']
+    url = https://drive.google.com/drive/folders/1p8TvpTUJxoUc3_ZGzNevgsaHHSEveiN5
+['remote "remote3_dvc"']
+    url = https://pan.baidu.com/disk/main?from=oldversion
+['remote "remote4_dvc"']
+    url = https://pan.baidu.com/disk/main?from=oldversion
+['remote "remote5_dvc"']
+    url = https://pan.baidu.com/disk/main?from=oldversion
+['remote "remote6_dvc"']
+    url = https://pan.baidu.com/disk/main?from=oldversion
+['remote "origin"']
+    url = gdrive://1p8TvpTUJxoUc3_ZGzNevgsaHHSEveiN5
+['remote "storage"']
+    url = gdrive://1p8TvpTUJxoUc3_ZGzNevgsaHHSEveiN5
